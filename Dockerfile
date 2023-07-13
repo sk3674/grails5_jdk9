@@ -18,4 +18,5 @@ ENV GRAILS_HOME /usr/lib/jvm/grails
 ENV PATH $GRAILS_HOME/bin:$PATH
 
 RUN ldd --version
+RUN cat /etc/os-release
 RUN grails --version
